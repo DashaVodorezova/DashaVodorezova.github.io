@@ -1,0 +1,159 @@
+* {
+    font-family:  Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.graybox {
+    background-color: #F4F4F4;
+    height: 100px;
+    width: 100%;
+}
+.width60 {
+    width: 60%;
+    margin: auto;
+    height: 100px;
+    position: relative;
+}
+.main {
+    border: 1px;
+    border-radius: 2px;
+    border-color: #292929;
+    width: 80px;
+    height: 26px;
+    background-color: #0271C7;
+    color: #FFFFFF;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont,  'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    margin-top: 53px;
+    margin-bottom: 21px;
+}
+.main:hover {
+        background-color: #27A1FF;
+}
+.main:active {
+        background-color: #C2E4FE;
+}
+.main:disabled {
+        background-color: #CFCFCF;
+}
+.form {
+    font-family: inherit;
+    font-size: 14px;
+    color: #CFCFCF;
+    width: 210px;
+    height: 28px;
+    padding-left: 12px;
+    border: 1px solid #CFCFCF;
+    border-radius: 4px;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+    margin-left: 21px;
+}
+.end {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 52px;
+    bottom: 20px;
+}
+.search {
+    display: inline-block;
+    vertical-align: text-bottom;
+    position: absolute;
+    bottom: 25px;
+    top: 57px;
+    right: 249px;
+}
+.form:hover {
+    border: 1px solid #27A1FF;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.month {
+    height: 48px;
+}
+.arrow {
+    margin-top: 12px;
+}
+.name {
+    margin-left: 24px;
+    margin-right: 24px;
+    vertical-align: super;
+}
+.extra {
+    border: 1px;
+    border-radius: 4px;
+    width: 59px;
+    height: 18px;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #292929;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    margin-left: 10px;
+    vertical-align: super;
+}
+.extra:hover {
+    color: #FFFFFF;
+    background-color: #6B6B6B;
+}
+.extra:active {
+    color: #FFFFFF;
+    background-color: #CFCFCF;
+    box-shadow: none;
+}
+.extra:disabled {
+    color: #CFCFCF;
+    border: 1px solid #CFCFCF ;
+}
+table {
+    width: 60%; 
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-top: 1px solid #292929; 
+    border-right: 1px solid #292929;
+}
+.cell {
+    width: 125px;
+    height: 120px;
+    border-bottom: 1px solid #292929; 
+    border-left: 1px solid #292929; 
+    font-size: 14px;
+    color: #6B6B6B;
+    text-align: left;
+    vertical-align: top;   
+    padding: 8px;
+}
+.empty:hover {
+    background-color: #F4F4F4;
+}
+.cell:active {
+    box-shadow: 0px 0px 10px 2px #0271C7;
+    position: relative;
+    z-index: 1;
+}
+.empty:active {
+    background-color: transparent;
+}
+.cell_title {
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    color: #292929;
+}
+.filled {
+    background-color: #C2E4FE;
+}
+.filled:hover {
+    background-color: #27A1FF;
+}
+.filled:active {
+    background-color: #C2E4FE;
+}
